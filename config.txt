@@ -1,0 +1,8 @@
+cloud: AWS
+hardware: t2.nano
+region: us-east-1
+instance_name: web-server
+min_instances: 1
+desired_instances: 2
+max_instances: 3
+bucket_name: unir-tesis-s3
