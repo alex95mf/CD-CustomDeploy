@@ -78,12 +78,12 @@ To destroy the infrastructure and clean up resources, run:
 ```
 
 ## Important Files
--**consola.sh:** Main script to interact with the user and gather desired configurations.
--**inicializar.sh:** Script to read configurations from config.txt and set necessary environment variables.
--**ejecutar.sh:** Script to execute Terraform commands to deploy the infrastructure.
--**eliminar.sh:** Script to destroy the infrastructure and clean up resources on AWS.
--**config.txt:** File generated with user-selected configurations.
--**credentials.tfvars:** File generated to store AWS credentials (if using the -c option in consola.sh).
+- **consola.sh:** Main script to interact with the user and gather desired configurations.
+- **inicializar.sh:** Script to read configurations from config.txt and set necessary environment variables.
+- **ejecutar.sh:** Script to execute Terraform commands to deploy the infrastructure.
+- **eliminar.sh:** Script to destroy the infrastructure and clean up resources on AWS.
+- **config.txt:** File generated with user-selected configurations.
+- **credentials.tfvars:** File generated to store AWS credentials (if using the -c option in consola.sh).
 
 ## Contribution
 Contributions are welcome! If you wish to improve this project, please open an issue or send a pull request.
