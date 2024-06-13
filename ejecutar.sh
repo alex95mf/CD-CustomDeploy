@@ -5,8 +5,8 @@ error_exit() {
   echo "Error: $1" >&2
 
   # Verificar si estamos en el directorio correcto
-  while [ "$(basename "$(pwd)")" != "Proyecto" ]; do
-    echo "Cambiando al directorio 'Proyecto'..."
+  while [ "$(basename "$(pwd)")" != "CD-CustomDeploy" ]; do
+    echo "Cambiando al directorio 'CD-CustomDeploy'..."
     cd .. || exit 1
   done
 

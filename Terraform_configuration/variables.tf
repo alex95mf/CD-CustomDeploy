@@ -23,7 +23,7 @@ variable "instance_name" {
 variable "s3_bucket" {
   description = "S3 Bucket Name"
   type        = string
-  default     = "unir-tesis-s3"
+  default     = "web-server-build"
 }
 
 variable "min_instances" {
